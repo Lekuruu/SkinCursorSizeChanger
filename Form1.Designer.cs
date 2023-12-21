@@ -38,7 +38,7 @@
             listBox1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             listBox1.FormattingEnabled = true;
             listBox1.ItemHeight = 15;
-            listBox1.Items.AddRange(new object[] { "Please select osu folder!" });
+            listBox1.Items.AddRange(new object[] { "Please select your osu! folder!" });
             listBox1.Location = new Point(12, 12);
             listBox1.Name = "listBox1";
             listBox1.Size = new Size(475, 154);
@@ -51,7 +51,7 @@
             button1.Name = "button1";
             button1.Size = new Size(240, 23);
             button1.TabIndex = 1;
-            button1.Text = "Pick osu folder";
+            button1.Text = "Select osu! folder";
             button1.UseVisualStyleBackColor = true;
             button1.Click += button1_Click;
             // 
@@ -102,7 +102,7 @@
             FormBorderStyle = FormBorderStyle.FixedSingle;
             MaximizeBox = false;
             Name = "Form1";
-            Text = "Skin cursor size changer";
+            Text = "Skin Cursor Size Changer";
             Load += Form1_Load;
             ((System.ComponentModel.ISupportInitialize)trackBar1).EndInit();
             ResumeLayout(false);
